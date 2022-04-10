@@ -78,45 +78,40 @@ class MyFooter extends HTMLElement {
         <footer class="py-5">
           <div class="row">
             <div class="col">
-              <h5>Patients</h5>
+              <h5>Recommended Products</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Features</a></li>
-                <li class="nav-item mb-2"><a href="patient-faqs.html" class="nav-link p-0 text-muted">Patient FAQ</a></li>
-              </ul>
-            </div>
-
-            <div class="col">
-              <h5>Providers</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="providers.html" class="nav-link p-0 text-muted">Home</a></li>
-                <li class="nav-item mb-2"><a href="provider-faqs.html" class="nav-link p-0 text-muted">Provider FAQs</a></li>
-                <li class="nav-item mb-2"><a href="demo.html" class="nav-link p-0 text-muted">Schedule A Demo</a></li>
-                <li class="nav-item mb-2"><a href="provider-sign-up.html" class="nav-link p-0 text-muted">Provider Sign Up</a></li>
-                <li class="nav-item mb-2"><a href="training.html" class="nav-link p-0 text-muted">Schedule Training</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Autism</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hearing</a></li>
               </ul>
             </div>
 
             <div class="col">
               <h5>Resources</h5>
               <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Placeholder</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Placeholder</a></li>
+              </ul>
+            </div>
+
+            <div class="col">
+              <h5>Company</h5>
+              <ul class="nav flex-column">
                 <li class="nav-item mb-2"><a href="about-us.html" class="nav-link p-0 text-muted">About Us</a></li>
-                <li class="nav-item mb-2"><a href="resources.html" class="nav-link p-0 text-muted">Resources</a></li>
-                <li class="nav-item mb-2"><a href="https://www.blog.allergy123.com" class="nav-link p-0 text-muted">Blog</a></li>
                 <li class="nav-item mb-2"><a href="contact-us.html" class="nav-link p-0 text-muted">Contact Us</a></li>
                 <li class="nav-item mb-2"><a href="support.html" class="nav-link p-0 text-muted">Support</a></li>
               </ul>
             </div>
-            <div class="col offset-md-2 d-flex" style="padding-top: 1rem">
-              <img src="../assets/images/logo-with-dots.png" alt="Allergy 123 Logo">
+            <div class="col offset-md-2 d-flex" style="padding-top: 0rem">
+            <img src="../assets/brand/mamabird-logo2.svg" width="230px" height="190px">
             </div>
           </div>
           <div class="d-flex justify-content-between py-4 my-4 border-top">
-            <p>&copy; ${year} Preventative Health and Diagnostics, Inc. All rights reserved.</p>
+            <p>&copy; ${year} MamaBird, LLC. All rights reserved.</p>
             <ul class="list-unstyled d-flex"> 
-              <li class="ms-3">719-394-3033</li>
-              <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/company/allergy-123" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"/></svg></a></li>
-              <li class="ms-3"><a class="link-dark" href="https://twitter.com/allergydash123" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+              
+              <li class="ms-3"><a class="link-dark" href="#" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"/></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
               <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/allergy.123/" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
               <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/allergy123/" target="_blank"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
             </ul>
