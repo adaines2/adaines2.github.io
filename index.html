@@ -6,43 +6,48 @@
     <meta name="description" content="Product reviews for kids with autism, speech impediment, or are hard of hearing.">
     <meta name="author" content="Alex Daines">
     <meta name="generator" content="Alex 0.0.1">
-    <title>MamaBird</title>
+    <title>MamaBird | Home</title>
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '290691739910524');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=290691739910524&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GZBW86BCQB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GZBW86BCQB"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-GZBW86BCQB');
-</script>
+      gtag('config', 'G-GZBW86BCQB');
+    </script>
+    <script type=module src=main.js></script>
 
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-      }
-
-      @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-      }
-      }
-    </style>
-
   
     <!-- Custom styles for this template -->
     <link href="../styles/css/heroes.css" rel="stylesheet">
   </head>
 
   <body class="page-color">
+
+    <my-header></my-header>
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="bootstrap" viewBox="0 0 118 94">
@@ -62,14 +67,18 @@
     
     <main>
 
-      <div class="px-4 text-center">
-        <img class="d-block mx-auto mb-0" src="../assets/brand/mamabird-logo2.svg" alt="" width="150" height="">
-        <h1 class="display-5 fw-bold">You are not Alone</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">MamaBird connects mothers with those whose children face non-traditional development journeys through a centralized, private platform. Leveraging the tight-bonded mother community, it organically sources the highest-trusted product information to give moms the greatest understanding when making important purchasing decisions that help each child receive the unique care they need – all from those they trust most...real moms.</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="#sign-up"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Sign up for Updates</button></a>
-            <a><button type="button" class="btn btn-outline-secondary btn-lg px-4">Take a Survey</button></a>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="../assets/images/child-and-book.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Real Product Reviews By Real Moms</h1>
+            <p class="lead">MamaBird connects mothers with those whose children face non-traditional development journeys through a centralized, private platform. Leveraging the tight-bonded mother community, it organically sources the highest-trusted product information to give moms the greatest understanding when making important purchasing decisions that help each child receive the unique care they need – all from those they trust most...real moms.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="#sign-up"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Sign up for Updates</button></a>
+              <a><button type="button" class="btn btn-outline-secondary btn-lg px-4">Take a Survey</button></a>
+            </div>
           </div>
         </div>
       </div>
@@ -167,22 +176,6 @@
 
     </main>
 
-    <footer>
-      <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-            <span class="text-muted">&copy; 2022 MamaBird, Inc</span>
-          </div>
-      
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-          </ul>
-        </footer>
-      </div>
-    </footer>
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <my-footer></my-footer>
   </body>
 </html>
