@@ -1,183 +1,72 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Product reviews for kids with autism, speech impediment, or are hard of hearing.">
-    <meta name="author" content="Alex Daines">
-    <meta name="generator" content="Alex 0.0.1">
-    <title>MamaBird | Home</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="a summary of the key lessons I've learned during the quarter.">
+        <meta name="robot" content="index">
+        <meta name="author" content="Alex R. Daines">
+        <meta name="MKTG 454 Key Learnings" content="1.0">
+        <title>Alex Daines | MKTG 454 - Key Learnings </title>
 
-    <!-- Meta Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '563337894913259');
-      fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=563337894913259&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GZBW86BCQB"></script>
-    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-GZBW86BCQB');
-    </script>
-    <script type=module src=main.js></script>
-
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/16247c3b7d7f50f2772f2cd54/1412a0cd4c5b9d04003fc5193.js");</script>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  
-    <!-- Custom styles for this template -->
-    <link href="../styles/css/heroes.css" rel="stylesheet">
-  </head>
-
-  <body class="page-color">
-
-    <my-header></my-header>
-
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-      <symbol id="bootstrap" viewBox="0 0 118 94">
-        <title>You are not alone</title>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
-      </symbol>
-      <symbol id="facebook" viewBox="0 0 16 16">
-        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-      </symbol>
-      <symbol id="instagram" viewBox="0 0 16 16">
-          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-      </symbol>
-      <symbol id="twitter" viewBox="0 0 16 16">
-        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-      </symbol>
-    </svg>
-    
-    <main>
-
-      <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="../assets/images/child-and-book.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Real Product Reviews By Real Moms</h1>
-            <p class="lead">MamaBird connects mothers with those whose children face non-traditional development journeys through a centralized, private platform. Leveraging the tight-bonded mother community, it organically sources the highest-trusted product information to give moms the greatest understanding when making important purchasing decisions that help each child receive the unique care they need – all from those they trust most...real moms.</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="#sign-up"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">View Products</button></a>
-              <a><button type="button" class="btn btn-outline-secondary btn-lg px-4">Sign up for updates</button></a>
+        <link href="../styles/css/homepage.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div class="backgroundpic">
+                <section>
+                    <div>
+                        <h1 class="hero-caption">Marketing 454 - Advertising Strategy - key learnings <br> By Alex Daines</h1>
+                    </div>
+                </section>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="container col-xxl-8 py-4">
-        <div class="row align-items-md-stretch">
-          <div class="col-lg-6 py-1">
-            <div class="h-100 p-3 text-white jumbotron-card-2 rounded-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
-                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
-              </svg>
-              <p>​ I spent 6 hours researching a sensory toy. I feel very alone in this journey​​<br></p>
-              <p>- Jessica C.</p>
-            </div>
-          </div>
-            <div class="col-lg-3 py-1">
-              <div class="h-100 p-3 text-white jumbotron-card-1 rounded-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
-                  <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
-                </svg>
-                <p>I don't feel comfortable sharing about my son's disability on social media <br></p>
-                <p>- Sarah H.</p>
-              </div>
-            </div>
-            <div class="col-lg-3 py-1">
-              <div class="h-100 p-3 text-white jumbotron-card-1 rounded-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
-                  <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
-                </svg>
-                <p>I can’t just ask other moms at the playground​​​</p>
-                <p>- Madison D.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="container col-xxl-7 px-4 py-1">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="../assets/mom-pictures.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
-          </div>
-          <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Moms trust other Moms</h1>
-            <p class="lead">Motherhood is a life-changing experience, that is filled with love, joy and triumphs. It also comes with anxieties, uncertainties and setbacks, which are often conquered communally with the advice and support of other moms. For those who have children with developmental challenges, the motherhood journey may become more fearful, unknown, and lonely, as fewer mothers are going through similar obstacles. Seeking guidance from the community of other moms becomes more difficult, making it harder to do what’s best for their child.</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container col-xl-10 col-xxl-7 px-4 py-1">
-        <div class="row align-items-center g-lg-5 py-5">
-          <div class="col-lg-7 text-center text-lg-start">
-            <a id="sign-up">
-              <h1 class="display-4 fw-bold lh-1 mb-3">Mom's know everything</h1>
-            </a>
-            <p class="col-lg-10 fs-4">Sign-up to get updates, annoucments, and surveys so we can start helping moms get the support they need.</p>
-          </div>
-          <div class="col-md-10 mx-auto col-lg-5">
-            <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}
-	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://mamabirdapp.us14.list-manage.com/subscribe/post?u=16247c3b7d7f50f2772f2cd54&amp;id=0daeef9704" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<h2>Subscribe</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-	<div id="mce-responses" class="clear foot">
-		<div class="response" id="mce-error-response" style="display:none"></div>
-		<div class="response" id="mce-success-response" style="display:none"></div>
-	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_16247c3b7d7f50f2772f2cd54_0daeef9704" tabindex="-1" value=""></div>
-        <div class="optionalParent">
-            <div class="clear foot">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-            </div>
-        </div>
-    </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup-->
-          </div>
-        </div>
-      </div>
-
-    </main>
-
-    <my-footer></my-footer>
-  </body>
+            <section>
+                <h1 class="h2">Creative Brief</h1>
+                    <p class="p1">Learning how to use the creative brief was my main objective in taking this class, and it has already become incredibly useful to me.</p>
+                    <p class="p1"> I work in a startup, so I wear a lot of hats. Recently I had to create a one-pager for a trade show which is not that complicated, but even something as simple as that I built a quick creative brief for my self. It helped me organize my thoughts and think through the other frameworks from class.</p>
+                <h1 class="h3">Creative Brief Sections</h1>
+                    <h2 class="h3">Objective</h2> 
+                        <h3 class="h3">Frameworks:</h3>
+                            <p class="p1" style="text-align: center"><strong>4As</strong> <br><br> Awareness <br> &darr; <br> Attitudes <br>&darr;<br> Action <br>&darr;<br> Action Repeated</p>
+                            <p class="p1"><strong>Objective-Task Method</strong> <br> Profit = Profit Per Sales X Ad-Related Sales - Advertising Cost </p>
+                        <p class="p1">Objectives help focus the strategy. They need to be real and not solely business metrics (e.g., "increase sales"). it's also important that the client maintains ownership of strategy. It's also essential to track the funnel metrics across the 4As so you can adjust your strategy as needed.</p>
+                    <h2 class="h3">Target</h2> 
+                        <h3 class="h3">Frameworks:</h3>
+                            <p class="p1" style="text-align: center">Objectives Targeting <br><br> Usage targets: <br><strong>Category Users:<br></strong> &swarr; &nbsp; &nbsp; &nbsp; &searr;<br> Branded (Secure) | Competitors (Steal)</p>
+                            <p class="p1"><Strong>SPA Tool:</Strong> <Strong>S</Strong>aturation, <Strong>P</Strong>rotection, <Strong>A</Strong>lienation</p>
+                        <p class="p1"><strong>Managing Multiple:</strong> Own, Attract, Accept</p>
+                        <p class="p1">to effectively use the targeting frameworks you need to have a solid understanding of your market share before deciding which approach is the best. </p>
+                    <h2 class="h3">Insight</h2> 
+                        <h3 class="h3">Framework:</h3>
+                            <p class="p1"><strong>Consumer Insight:</strong> Target &larr; Insight &rarr; Position</p>
+                            <p class="p1"><strong>Human Motivations:</strong>  <br>Gratification <br> Agency <br> Communion</p>
+                            <p class="p1">Consumer insights rely on your ability to connect consumer behavior to your product. Insight is the glue between our target and position, and it is very difficult to effectively target more than one group at a time. <br><br> Focusing on a given customer motivation and linking that with your branding and marketing can turn an underperforming product into a winner</p>
+                    <h2 class="h3">Position</h2> 
+                        <h3 class="h3">Frameworks:</h3>
+                            <p class="p1"><strong>Positioning Trapezoid</strong></p>
+                            <p class="p1" style="text-align: center">Category <br> (Frame of Reference) <br>Points of Similarity &swarr; &nbsp; &nbsp; &nbsp; &searr;Points of Similarity <br> Your Brand <----Points of Difference---->Competitors Brand</p>
+                            <p class="p1"><strong>Laddering</strong> <br>Higher Order Value <br>Emotional Benefit<br> Functional Benefit<br>Featers</p>
+                            <p class="p1"><strong>D.O.N.E </strong> | Benefit Desired? &rarr; Position can be Owned? &rarr; Navigate to brand Promise? &rarr; Will the Position Endure?</p>
+                        <p class="p1">Frame of reference can help positioning by highlighting different benefits that might not be seen by using a "default" frame of reference (or the obvious choice).<br><br> Changing your frame of reference can also help expand to a new target that might not have been a key customer before under the old Frame of Reference.</p>
+                        <p class="p1">Laddering approach is helpful for multi-prong advertising approaches.</p>
+                        <p class="p1">Repositioning is problematic and should only be done as a last resort (basically). Your product positioning should impact the 4Ps as well, so it really should impact most aspects of the company.</p>
+                    <h2 class="h3">Execution</h2>
+                        <h3 class="h3">Frameworks:</h3>
+                            <p class="p1">MEEC (Media Efficiency Effectiveness Cost)</p>
+                            <p class="p1"> Consumer Journey <br> Pre-need &rarr; Trigger &rarr; Consider &rarr; Buy &rarr; Use &rarr; Post-evaluation/Pre-need</p>
+                        <p class="p1">The timing of ads is a key strategic decision (when to push your ads out).
+                        <br><br>There are a few different strategies:<br>
+                        Pulse - going hard for a period and then taking a break - reduces burnout <br>
+                        Ramp - used to gain awareness over time - can be seasonal in nature 
+                        <br>Frequency and reach need to be evaluated.<br>
+                        <br>Planned decisions work better with reach (oddly - in my opinion).
+                        <br>Digital is not a strategy, but digital media is important.</p>
+                    <h2 class="h3">Evaluation</h2> 
+                        <h3 class="h3">Frameworks:</h3>
+                            <p class="p1"><strong>ADPLAN</strong> <br>Attention<br>Distinction <br> Positioning <br>Linkage<br>Amplification<br>Net Equity</p>
+                        <p class="p1">Estimating the effectiveness of ads before is a solid way to better understand the best strategy and forces you to really think through the options in more realistic ways.</p>
+            </section>
+        </main>
+    </body>
 </html>

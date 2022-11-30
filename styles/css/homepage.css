@@ -1,0 +1,36 @@
+.hero-caption {
+    bottom: 4rem;
+    margin-bottom: 4rem;
+    z-index: 10;
+    height: 32rem;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 14vh;
+    color: #ffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.backgroundpic {
+    background-image: url("../../assets/images/homepage-hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-bottom: 2rem
+
+}
+
+.h3 {
+    color: #4e2a84;
+}
+
+.h2 {
+    color: #4e2a84;
+}
+
+.p1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bolded { 
+    font-weight: bold; 
+}
